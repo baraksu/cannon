@@ -23,34 +23,37 @@
 # דוגמאות ריצה
 מסך פתיחה
 
-![‏‏צילום מסך (15)](https://github.com/OzYehezkel/cannon/assets/166802634/178cd1fa-f96b-472f-9348-c9650798b801)
+
+
 
 התחלת משחק
 
-![‏‏צילום מסך (16)](https://github.com/OzYehezkel/cannon/assets/166802634/ad8c1659-f9ac-42f8-8e15-bd5e87f00292)
+![‏‏צילום מסך (16)](https://github.com/baraksu/cannon/assets/166802634/974a2b7f-601f-4073-b99e-88a46a0c7f4e)
 
 
 כוונון התותח מתחת למטרה
 
+![‏‏צילום מסך (17)](https://github.com/baraksu/cannon/assets/166802634/e06e85de-3fb1-43ba-8624-56f6f189896a)
 
-![‏‏צילום מסך (17)](https://github.com/OzYehezkel/cannon/assets/166802634/6ffc5ae2-db4b-4aa4-a24d-656c94aa162a)
 
 השחקן יורה
 
-![‏‏צילום מסך (18)](https://github.com/OzYehezkel/cannon/assets/166802634/28c1e63d-91f1-49d0-a99b-d15a0fb442fe)
+![‏‏צילום מסך (18)](https://github.com/baraksu/cannon/assets/166802634/695bbf5b-191c-443b-8988-ecb95f3cf01b)
+
 
 פגיעה במטרה ומחיקתה
 
-![‏‏צילום מסך (21)](https://github.com/OzYehezkel/cannon/assets/166802634/643599ac-4be2-4580-a6fd-68043dc3bbc8)
+![‏‏צילום מסך (21)](https://github.com/baraksu/cannon/assets/166802634/f0ddfcd5-2c6e-48ae-b94a-945041e9eba0)
 
 
 פספוס מטרה
 
-![‏‏צילום מסך (19)](https://github.com/OzYehezkel/cannon/assets/166802634/dd7ed36d-ea64-4f87-a169-fc010df40e99)
+![‏‏צילום מסך (19)](https://github.com/baraksu/cannon/assets/166802634/35494443-4e25-4bf8-857a-9efd773ac0b8)
+
 
 מסך סיום וניצחון במשחק
 
-![‏‏צילום מסך (20)](https://github.com/OzYehezkel/cannon/assets/166802634/ca2f9a91-c24b-41dd-986e-485e45b72bca)
+![‏‏צילום מסך (20)](https://github.com/baraksu/cannon/assets/166802634/e98797ce-4141-4e7f-aafa-a44e3de3a25e)
 
 
 # שלבי פיתוח
