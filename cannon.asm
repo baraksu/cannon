@@ -71,6 +71,16 @@ tar7 dw 0295d ,0050d ,0315d ,0070d  ;Target number 7 arr
 
 .CODE
 
+proc delay
+	pusha
+	mov cx, 0001h   ;High Word
+	mov dx, 0001h   ;Low Word
+	mov ah, 86h   ;Wait
+	int 15h
+	popa
+	ret
+endp delay
+
 checkandbreak proc ;no parmeter needs for the proc
 
 tar1check:
@@ -601,6 +611,7 @@ homescreenwait:
     jmp RetroKeyWait
 
 Shoot:
+
     mov ax,XTopLeftBarrel
     mov Xbullet,ax
     add Xbullet,0007h
@@ -615,13 +626,18 @@ Shoot:
     mov dx,Ybullet
     sub Ybullet,0005h
     mov ah,0Ch
+    
 drawbullet:
+
     int 10h
     dec dx
     cmp dx,Ybullet
     jae drawbullet
-                     
-reapetshooting:
+    
+    call delay                 
+    
+reapetshooting: 
+
     mov al,0000h                     
     mov dx,Ybullet
     add dx,0005h
@@ -642,7 +658,9 @@ reapetshooting:
     mov dx,Ybullet
     mov cx,Xbullet
     mov ah,0Ch
-    int 10h 
+    int 10h   
+    
+    call delay  
     
     cmp Ybullet,1
     je Deletebullet
