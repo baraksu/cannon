@@ -57,6 +57,8 @@ YRightButtomBarrel dw 158d ;the buttom Y of the canon barrel
 Xbullet dw 0h ;the X of the current bullet
 Ybullet dw 0h ;the Y of the current bullet
 
+delaycheckbullet db 0h ;counter if you should use delay
+
 ;targets
        ;X<     Y^     X>     Y_  
 tar1 dw 0025d ,0025d ,0035d ,0035d  ;Target number 1 arr
@@ -660,7 +662,14 @@ reapetshooting:
     mov ah,0Ch
     int 10h   
     
-    call delay  
+    inc delaycheckbullet
+    cmp delaycheckbullet,5h
+    jne notcalldelay 
+    
+    call delay
+    mov delaycheckbullet,0h
+    
+notcalldelay:    
     
     cmp Ybullet,1
     je Deletebullet
